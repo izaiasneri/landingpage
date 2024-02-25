@@ -1,0 +1,180 @@
+/* ************************************** */
+/* ************ RESET ******************* */
+/* ************************************** */
+*{padding: 0; margin: 0; box-sizing: border-box; -webkit-box-sizing: border-box ; -moz-box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+a{text-decoration: none; cursor: pointer;}
+
+/* ************************************** */
+/* *********  Flex-Box ****************** */
+/* ************************************** */
+.c-flex{display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.r-flex{display: flex; justify-content: center; align-items: center; flex-direction: row;}
+
+
+/* ************************************** */
+/* Controla o conteúdo colocado nas seções*/
+/* ************************************** */
+.secao{width: 100%; height: auto;display: flex; justify-content: center; align-items: center;flex-direction: column; padding-top: 20px; padding-bottom: 20px;}
+
+
+/* ************************************** */
+/* *********** Criando linhas *********** */
+/* ************************************** */
+.linha{width: 90%; height: auto; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+
+/* ************************************** */
+/* ********** Criando as colunas ******** */
+/* ************************************** */
+.col-1, .col-2, .col-3 { width: 100%; height: auto;}
+
+
+/* ************************************** */
+/* ****** Controle do cabeçalho ********* */
+/* ************************************** */
+.header{height: auto; width: 100%; background-color:	#d3d3d3;}
+.header img{width: 200px;height: auto;}
+.header ul{list-style: none; margin: 0; padding: 0;}
+.header ul li{display: inline; padding: 5px;}
+.header a{text-decoration: none; cursor: pointer; color: #000080;}
+.header a:hover{background-color: #000080; color: #ffffff;}
+
+
+/* ************************************** */
+/* ******** Texto da apresentação ******* */
+/* ************************************** */
+.textap{color: #363636; text-align: justify; font-size: 15px; line-height: 2.0;}
+
+/* ************************************** */
+/* ******** Imagem da apresentação ****** */
+/* ************************************** */
+.figap{width: 100%;height: auto; background-color: #ffffff;}
+.figap img{max-width: 80%;height: auto;}
+
+
+/* =============================================== */
+/* =========  Título das seções  ================= */
+/* =============================================== */
+
+.titulo{ font-size: 30px; padding-top: 30px; padding-bottom: 10px; font-family: "Acme", sans-serif;}
+.tituloazul{color: #000080;}
+.titulobranco{color: #ffffff;}
+
+/* =============================================== */
+/* =========  Cor de fundo para seçao ============ */
+/* =============================================== */
+.bgcinza{background-color: #d3d3d3;}
+.bgcinza2{background-color: #A9A9A9;}
+.bgazulclaro{background-color: #ADD8E6;}
+.bgazul{background-color: #003366;}
+
+
+/* =============================================== */
+/* ==============  Serviços ===================== */
+/* =============================================== */
+.cardservicos{width: 300px; height: auto;padding: 15px; background-color: aliceblue; border-radius: 8px; margin-top: 10px; margin-bottom: 10px;}
+.cardimg{width: 100%;height: auto;}
+.cardimg img{width: 80px;height: auto;}
+.cardtext{width: 100%;height: auto;}
+
+
+/* =============================================== */
+/* ==============  Vantagens ===================== */
+/* =============================================== */
+.vantagens ul{list-style: none; margin: 0; padding: 15px;font-size: 20px;}
+.vantagens ul li{padding: 15px; color: #ffffff;}
+
+
+
+/* =============================================== */
+/* ==============  Contato   ===================== */
+/* =============================================== */
+.form-group {margin-bottom: 20px; width: 100%;}
+label {display: block; margin-bottom: 5px;}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {width: 100%; padding: 10px;border: 1px solid #ccc;border-radius: 5px;}
+button[type="submit"] {display: block;width: 100px;padding: 10px;background-color: #007bff;color: #fff; border: none; border-radius: 5px;  cursor: pointer;  transition: background-color 0.3s;}
+button[type="submit"]:hover { background-color: #0056b3;}
+
+/* =============================================== */
+/* ================= Quem sou    ================= */
+/* =============================================== */ 
+.quem-sou-foto{width: 300px; height: 300px; border: solid 6px #000000; border-radius: 150px; margin-top: 20px; margin-bottom: 20px; display: flex; background-image: url(../img/iza.jpg); background-size: cover; background-position-y: 25%;}
+
+/* =============================================== */
+/* ============= Redes Sociais   ================= */
+/* =============================================== */ 
+.sociais ul{list-style: none; margin: 0; padding: 15px;font-size: 20px; }
+.sociais ul li{padding: 15px; color: #ffffff; display: inline;}
+.sociais img{width: 40px;}
+.sociais ul li a:hover{transform: scale(0.90);}
+
+/* =============================================== */
+/* ==============  Rodapé  ======================= */
+/* =============================================== */
+.rodape{background-color: #1F1F20; color: #DCE0E6;text-align: center;}
+.rodape hr{width: 90%;height: 2px;margin-top: 20px;}
+
+
+
+/* =============================================== */
+/* =========  Espaçamentos em Branco ============= */
+/* =============================================== */ 
+
+.pt-20{padding-top:     20px;}
+.pb-20{padding-bottom:  20px;}
+.pl-20{padding-left:    20px;}
+.pr-20{padding-right:   20px;}
+
+.mt-20{margin-top:      20px;}
+.mb-20{margin-bottom:   20px;}
+.ml-20{margin-left:     20px;}
+.mr-20{margin-right:    20px;}
+
+.pt-40{padding-top:    40px;}
+.pb-40{padding-bottom: 40px;}
+.pl-40{padding-left:   40px;}
+.pr-40{padding-right:  40px;}
+
+.mt-40{margin-top:      40px;}
+.mb-40{margin-bottom:   40px;}
+.ml-40{margin-left:     40px;}
+.mr-40{margin-right:    40px;}
+
+
+/* Breakpoints*/
+
+
+@media screen and (min-width: 600px){
+
+}
+
+@media screen and (min-width: 768px){
+   
+    /* Muda a linha de coluna para linha no flexbox para ajustar ao tamanho das telas maiores */
+    .linha{flex-direction: row;}
+    .textap{width: 80%; font-size: 20px;}
+    .titulo{font-size: 50px;}
+    
+    
+}
+
+
+@media screen and (min-width: 900px){
+    
+    .col-2{width: 50%;}
+    .col-3{width:  33.3333%;}
+    
+
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+   
+
+
+}
+
+
